@@ -38,3 +38,17 @@ app.use('/graphql', expressGraphQL({
 }))
 
 app.listen(port, () => console.log(`Servidor graphql corriendo en http://localhost:${port}/graphql`))
+
+
+/*
+    go to 
+    http://localhost:4000/graphql
+
+    query:
+
+    { personas {
+        id, 
+        username
+    } }
+
+*/
